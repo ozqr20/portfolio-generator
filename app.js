@@ -1,5 +1,15 @@
 const inquirer = require('inquirer');
 
+inquirer
+  .prompt([
+    {
+      type: 'input',
+      name: 'name',
+      message: 'What is your name?'
+    }
+  ])
+  .then(answers => console.log(answers));
+
 // Array that holds the user command-line arguments
 // const profileDataArgs = process.argv.slice(2);
 // const [name,github] = profileDataArgs;
