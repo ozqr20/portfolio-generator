@@ -10,7 +10,7 @@ const generateAbout = aboutText => {
         <h2 class="text-dark bg-primary p-2 display-inline-block">About Me</h2>
         <p>${aboutText}</p>
     </section>
-    ;`
+    `;
 };
 
 const generateProjects = projectsArr => {
